@@ -11,7 +11,7 @@ import (
 type params struct {
 	User     string `env:"PROXY_USER" envDefault:""`
 	Password string `env:"PROXY_PASSWORD" envDefault:""`
-	Port     string `env:"PROXY_PORT" envDefault:"1080"`
+	Port     string `env:"PROXY_PORT" envDefault:"20600"`
 }
 
 func main() {
